@@ -1,9 +1,7 @@
-bool poop;
+#include <stdio.h>
 
+int main (){
 
-int main(){
-
-  if (human){
-    return poop = true;
-  }
+    printf("poop\n");
+    return 0;
 }
