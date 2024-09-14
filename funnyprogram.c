@@ -1,19 +1,21 @@
+#include <stdio.h>
+#include <string.h>
 
 
-struct {
+#define MAX_LENGTH 100
+
+struct champion {
     char *name;
     int hp;
     int mp;
-    struct character *idk;
 
-}
-character;
+};
 
-
-void main(){
-    character *teemo = malloc(sizeof(character));
+int main(){
+    char champ_name[MAX_LENGTH];
+    char *teemo = malloc(MAX_LENGTH * sizeof(char));
     int hp = 100;
     int mp = 100;
-    printf("hp: %i, mp:%i", hp, mp)
-
+    printf("hp: %i, mp:%i", hp, mp);
+    return 0;
 }
